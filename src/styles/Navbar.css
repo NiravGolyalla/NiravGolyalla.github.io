@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar_title{
+    line-height:0%;
+}
+
+.navbar_menu{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_link:hover {
+    color: red;
+}

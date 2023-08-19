@@ -1,0 +1,20 @@
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("maxresdefault.jpg");
+    color:white;
+    height: 100vh;
+}
+
+.hero_container{
+    text-align: center;
+}
+
+.hero_title{
+    font-size: 100px;
+}
+
+.hero_blurb {
+    font-size: 50px;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+
+/* Color Theme Swatches in Hex */
+:root { 
+    --yellow: #F2E527; 
+    --grey: #595857;
+    --orange: #F27830;
+    --white: #F2F2F2;
+    --black: #0D0D0D;
+}
+ 
+body {
+    margin:0;
+    /* background-color: var(--black); */
+    /* font-family: 'Tilt Prism', cursive; */
+
+
+}
