@@ -17,7 +17,7 @@ export default function Navbar() {
                     <a className="navbar_link" href="#contact">Contact Me</a>
                 </li>
                 <li>
-                    <a className="navbar_link" href="NiravGolyallaResume2023.pdf" target="_blank">Resume</a>
+                    <a className="navbar_link" href="/assets/NiravGolyallaResume2023.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </div>

@@ -1,11 +1,13 @@
 .navbar{
     display:flex;
-    width: auto;
+    width: 100dvw;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position:fixed;
+    top: 0;
     padding-left: 2%;
     padding-right: 2%;
+    background-color: aliceblue;
 }
 
 .navbar_title{
