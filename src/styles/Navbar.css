@@ -7,7 +7,8 @@
     top: 0;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: aliceblue;
+    color:white;
+    /* background-color: aliceblue; */
 }
 
 .navbar_title{
@@ -23,7 +24,7 @@
 
 .navbar_link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar_link:hover {

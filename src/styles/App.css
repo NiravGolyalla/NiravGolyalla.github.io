@@ -3,27 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100svw;
-    height: 50vh;
-    
+    /* width: 100svw; */
+    height: 50vh;    
     padding-left: 30rem;
     padding-right: 30rem;
 }
 
-.subsection:nth-child(2n+1) {
-    background-color: white;
-}
-
-.subsection:nth-child(2n+2) {
-    background-color: lightgrey;
-}
 
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/maxresdefault.jpg");
+    /* background-image: url("/assets/maxresdefault.jpg"); */
     color: white;
     height: 100vh;
     width: 100%;
