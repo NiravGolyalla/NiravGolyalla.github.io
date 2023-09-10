@@ -1,0 +1,21 @@
+.hero_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("/assets/maxresdefault.jpg"); */
+    height: 100vh;
+    width: 100%;
+}
+
+.hero_subcontainer {
+    text-align: center;
+}
+
+.hero_title {
+    font-size: 10rem;
+    line-height: 50%;
+}
+
+.hero_blurb {
+    font-size: 5rem;
+}

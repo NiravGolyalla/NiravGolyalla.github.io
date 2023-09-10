@@ -1,0 +1,18 @@
+.subsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow:hidden;
+    height: 70vh;
+    padding: 5em 25em 5em 25em;   
+}
+
+.subsection:nth-child(2n+1){
+    background-color: var(--darkblue);
+}
+
+
+.subsection:nth-child(2n+2){
+    background-color: var(--blue);
+}
