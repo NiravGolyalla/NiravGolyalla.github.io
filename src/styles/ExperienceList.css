@@ -2,28 +2,72 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* overflow: auto; */
     height: 100%;
-    /* background-color: antiquewhite; */
+    
 }
 
 .experience_info{
-    background-color:salmon;
-    width:65%;
+    position: relative;
+    background-color: darkgreen;
+    width:100%;
     margin: 0 1em 0 1em;
-    /* line-height: 0; */
     padding: 2em;
     border-radius: 20px;
     height: 100%;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
 }
 
+.experience_card{
+    position: relative;
+    background-color: var(--element);
+    width:100%;
+    padding: 2em;
+    border-radius: 20px;
+    height: 100%;
+    top:0;
+    left:0;
+    transition: all 1s ease-in-out;
+}
+
+.experience_wipe {
+    position: absolute;
+    border-radius: 20px;
+    background-color: var(--element);
+    width:calc(100% - 4em);
+    height:calc(100% - 4em);
+    padding: 2em;
+    /* margin: 2em; */
+    top:2em;
+    /* left: 2em; */
+    left: calc(-100% + 2em);
+
+    z-index: 10;
+}
+
+@keyframes wipe {
+    from {
+        /* transform: translateX(calc(calc(-100%))); */
+        transform: translateX(calc(0%));
+    }
+    to{
+        transform: translateX(calc(100% + 4em));   
+    }
+}
+
+.wipe{
+    animation: wipe .5s linear 0s 1 normal backwards;
+}
 
 .experience_list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    gap: 1em;
     position: relative;
     width: 35%;
-    height: 100%;
-    /* background-color: green; */
-    /* border: 1px solid green; */
+    height: 110%;
+
 }
 
 .experience_list::before{
@@ -31,7 +75,7 @@
     position: absolute;
     height: 100%;
     margin-left: 1.5em;
-    border-left: 4px solid grey;
+    border-left: 4px solid darkblue;
 }
 
 

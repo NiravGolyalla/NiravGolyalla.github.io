@@ -8,8 +8,11 @@
     padding-left: 2%;
     padding-right: 2%;
     color:white;
-    /* background-color: aliceblue; */
+    background-color: var(--background);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+
+
 
 .navbar_title{
     line-height:0%;

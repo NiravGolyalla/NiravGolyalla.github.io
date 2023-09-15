@@ -1,3 +1,12 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5em;
+    
+}
+
 .subsection {
     display: flex;
     flex-direction: column;
@@ -5,14 +14,9 @@
     align-items: center;
     overflow:hidden;
     height: 70vh;
-    padding: 5em 25em 5em 25em;   
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5em 10em 5em 10em;
+    background-color: var(--foreground);
 }
 
-.subsection:nth-child(2n+1){
-    background-color: var(--darkblue);
-}
-
-
-.subsection:nth-child(2n+2){
-    background-color: var(--blue);
-}

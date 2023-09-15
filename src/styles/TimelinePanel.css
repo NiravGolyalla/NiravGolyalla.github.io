@@ -5,53 +5,55 @@
     padding: .2em 1em .2em 1em;
     align-items: flex-end;
     width: 100%;
-    border-bottom: 2px solid black;
-    background-color: darkslategray;
-    transition: all 0.5s;
+    background-color: var(--element);
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
 }
 
-.timeline_panel:hover {
-    background-color: brown;
-}
-
-.timeline_panel:after {
-	content: '';
+.timeline_hover{
+    content: '';
 	position: absolute;	
 	transition: inherit;
 	z-index: 1;
 	top: 0;
 	width: 0;
 	height: 100%;
-	left: 3em;
-	border-bottom: 3px solid white;
+	left: calc(3em);
+    background-color: darkblue;
+	border-bottom: 3px solid var(--elementhighlight);
 }
 
-.timeline_panel:hover:after{
-	width: calc(100% - 3em);
+.timeline_panel:hover .timeline_hover, .active .timeline_hover{
+    width: calc(calc(100% - 3em));
 }
+
+.active .timeline_hover{
+    background-color: green;
+}
+
 
 .timeline_panel:before {
     content: '';
     background: inherit;
-    width: 25px;
-    height: 25px;
+    width: 2em;
+    height: 2px;
     display: block;
     position: absolute;
-    top: 20%;
-    left: 2.3em;
+    top: 37%;
+    left: 1em;
     z-index: 0;
-    transform: rotate(45deg);
-    /* border: inherit; */
+    border-bottom: inherit;
+    border-left: inherit;
 }
-
-
 
 .timeline_title {
     font-size: 1.5em;
+    z-index: 10;
 }
 
 .timeline_text {
     font-size: 1em;
+    z-index: 4;
 }
 
 .experience_point{
