@@ -1,20 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Tilt+Prism&display=swap');
-:root{
-    --background: #0b0c10;
-    --foreground: #1F2833;
-    --text: #C5C6C7;
-    --element: #fc8466;
-    --elementhighlight: #6699FF;
-    --elementdark: #3268D5;
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
+
+html {
+    font-size: 100%;
 }
 
 body {
+    font-family: 'Poppins';
+    font-weight: 400;
     background-color: var(--background);
     color: var(--text);
-    font-family: 'Roboto Slab', san-serif;    
 }
 
-.end{
-    background-color: black;
+:root {
+    --text: #F1F1F1;
+    --background: #0F0F0F;
+    --primary: #F1F1F1;
+    --secondary: #272727;
+    --accent: #FF0000;
+    --lshade3: rgb(255,255,255,.03);
+    --lshade5: rgb(255,255,255,.05);
+    --lshade10: rgb(255,255,255,.1);
+    --lshade15: rgb(255,255,255,.15);
+    --dshade3: rgb(0,0,0,.03);
+    --dshade5: rgb(0,0,0,.05);
+    --dshade10: rgb(0,0,0,.1);
+    --dshade15: rgb(0,0,0,.15);
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: 8px;
+    scrollbar-color: var(--accent) var(--background);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: inherit;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 10px;
+    /* border: 3px solid #ffffff; */
+  }

@@ -1,0 +1,15 @@
+.project_container{
+    display: flex;
+    gap: 1em;
+    padding: 1em ;
+}
+
+.project_scroll{
+    display: flex;
+    gap: 2em;
+    overflow-x: scroll;
+    width: 70vw;
+    padding: 1em;
+    background-color: var(--dshade10);
+    /* scroll-behavior: smooth; */
+}

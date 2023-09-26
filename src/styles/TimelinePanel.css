@@ -5,7 +5,7 @@
     padding: .2em 1em .2em 1em;
     align-items: flex-end;
     width: 100%;
-    background-color: var(--element);
+    background-color: var(--lshade5);
     transition: all 0.5s ease-in-out;
     z-index: 0;
 }
@@ -19,8 +19,8 @@
 	width: 0;
 	height: 100%;
 	left: calc(3em);
-    background-color: darkblue;
-	border-bottom: 3px solid var(--elementhighlight);
+    background-color: var(--lshade15);
+	border-bottom: 3px solid var(--accent);
 }
 
 .timeline_panel:hover .timeline_hover, .active .timeline_hover{
@@ -28,7 +28,7 @@
 }
 
 .active .timeline_hover{
-    background-color: green;
+    background-color: var(--accent);
 }
 
 
@@ -71,6 +71,7 @@
     text-align: center;
     vertical-align:middle;
     font-size: 2rem;
-    background-color: green;
+    background-color: var(--secondary);
+    border: 3px solid var(--accent);
     z-index: 1;
 }

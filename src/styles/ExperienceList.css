@@ -2,25 +2,24 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
-    
+    height: 50vh;   
 }
 
 .experience_info{
     position: relative;
-    background-color: darkgreen;
+    background-color: var(--dshade10);
     width:100%;
     margin: 0 1em 0 1em;
     padding: 2em;
     border-radius: 20px;
-    height: 100%;
+    height: 50vh;
     overflow: hidden;
     transition: all 1s ease-in-out;
 }
 
 .experience_card{
     position: relative;
-    background-color: var(--element);
+    background-color: var(--secondary);
     width:100%;
     padding: 2em;
     border-radius: 20px;
@@ -33,7 +32,7 @@
 .experience_wipe {
     position: absolute;
     border-radius: 20px;
-    background-color: var(--element);
+    background-color: var(--secondary);
     width:calc(100% - 4em);
     height:calc(100% - 4em);
     padding: 2em;
@@ -56,7 +55,7 @@
 }
 
 .wipe{
-    animation: wipe .5s linear 0s 1 normal backwards;
+    animation: wipe 1s ease-in-out 0s 1 normal backwards;
 }
 
 .experience_list{
@@ -75,7 +74,7 @@
     position: absolute;
     height: 100%;
     margin-left: 1.5em;
-    border-left: 4px solid darkblue;
+    border-left: 4px solid var(--accent);
 }
 
 

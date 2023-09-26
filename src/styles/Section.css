@@ -12,11 +12,11 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    overflow:hidden;
-    height: 70vh;
+    overflow: hidden;
+    min-height: 50vh;
     border: 1px solid black;
     border-radius: 20px;
     padding: 5em 10em 5em 10em;
-    background-color: var(--foreground);
+    background-color: var(--lshade5);
 }
 
