@@ -1,93 +1,39 @@
 let data = [
     {
-        title:"amongus",
+        title:"Tower Collision",
         img:"assets/smple.png",
-        link: "link",
-        description:"sus"
+        link: "https://github.com/NiravGolyalla/Tower-Collision",
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
         title:"amongus",
         img:"assets/smple.png",
         link: "link",
-        description:"sus"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
         title:"amongus",
         img:"assets/smple.png",
         link: "link",
-        description:"sus"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
         title:"amongus",
         img:"assets/smple.png",
         link: "link",
-        description:"sus"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
         title:"amongus",
         img:"assets/smple.png",
         link: "link",
-        description:"sus"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     {
         title:"amongus",
         img:"assets/smple.png",
         link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
-    },
-    {
-        title:"amongus",
-        img:"assets/smple.png",
-        link: "link",
-        description:"sus"
+        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
     },
     
 ];

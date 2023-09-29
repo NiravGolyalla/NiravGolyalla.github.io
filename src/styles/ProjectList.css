@@ -1,15 +1,32 @@
-.project_container{
+.project_container {
     display: flex;
     gap: 1em;
-    padding: 1em ;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
-.project_scroll{
+.project_scroll {
     display: flex;
-    gap: 2em;
+    gap: 5em;
+    justify-content: space-between;
+    border-radius: 15px;
     overflow-x: scroll;
     width: 70vw;
+    height: 100%;
     padding: 1em;
     background-color: var(--dshade10);
+    /* cursor: grab; */
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    -moz-user-select: none;
+    /* firefox */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE */
+    user-select: none;
+    /* Standard syntax */
     /* scroll-behavior: smooth; */
 }

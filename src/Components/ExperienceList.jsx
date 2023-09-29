@@ -29,7 +29,6 @@ export default function ExperienceList() {
                 {data.map((experience, pos) => (
                     <TimelinePanel className={`${(past == pos) ? "active" : ''}`} key={pos} customClickEvent={() => experienceHandler(pos)} name={experience.title} text={experience.time}></TimelinePanel>
                 ))}
-                {console.log(`${(index == 0) ? "active" : ""}`)}
             </div>
             <div className="experience_info">
                 <div className={`experience_card${(refresh) ? " wipe" : ''}`}>

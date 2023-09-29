@@ -1,0 +1,14 @@
+.buttonHover{
+    /* position: absolute; */
+    /* height: calc(100% - 2em); */
+    width:5em;
+    background-color: transparent;
+}
+
+.buttonHover.left{
+    left:0;
+}
+
+.buttonHover.right{
+    left:calc(100% - 5em);
+}

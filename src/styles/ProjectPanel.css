@@ -3,17 +3,56 @@
     flex-direction:column;
     align-items: center;
     background-color: var(--secondary);
-    width: min-content;
+    width: 21vw;
+    height: 28vw;
     border-radius: 15px;
-    line-height: 0px;
-    padding: 1em;
+    transform-origin: 50% 10%;
+    transition: all 0.5s cubic-bezier(0.64, 0.57, 0.67, 1.53);
 }
 
+.Display_content{
+    padding:  0.5em 2em 0 2em;
+    /* outline: 1px red solid; */
+    width: 100%;
+    line-height: 1em;
+    height: 45%;
+}
+
+.Display_container.left{
+    transform: rotate(-5deg);
+}
+
+.Display_container.right{
+    transform: rotate(5deg);
+}
 .Display_img{
+    border-radius: 15px 15px 0 0;
+    width: inherit;
+    height: 55%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.Display_buttonholder{
+    width: 100%;
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    border-style:solid;
-    width: 10vw;
-    height: 10vw;
+    justify-content: center;
+    gap: 1em;
+}
+
+.Display_button{
+    /* all:unset; */
+    padding: 1em; 
+    background-color: var(--dshade3);
+    color: inherit;
+    border: 2px solid var(--lshade10); 
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.Display_button:hover{
+    background-color: var(--accent);
+
 }

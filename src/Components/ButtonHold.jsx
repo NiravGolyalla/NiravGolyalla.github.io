@@ -1,4 +1,5 @@
 import {useEffect,useRef} from 'react'
+import "../styles/ButtonHold.css"
 
 export default function ButtonHold(props) {
     const intervalRef = useRef(null);
@@ -27,6 +28,6 @@ export default function ButtonHold(props) {
     }
 
     return (
-        <button onMouseEnter={startCounter} onMouseUp={stopCounter} onMouseLeave={stopCounter}>{props.children}</button>
+        <button className={`buttonHover ${props.className}`} onMouseDown={startCounter} onMouseUp={stopCounter} onMouseLeave={stopCounter}>{props.children}</button>
     )
 }
