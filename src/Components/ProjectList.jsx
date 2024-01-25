@@ -40,9 +40,7 @@ export default function ProjectList() {
 
     return (
         <div className="project_container">
-            <ButtonHold className="left" scrollOffset={-moveAmount} move={slider}>{"<"}</ButtonHold>
             <div ref={slider} className="project_scroll" onMouseDown={onMouseDown} onMouseMove={onMouseMove} onMouseUp={onMouseUp} onMouseLeave={onMouseUp}>{data.map((item, id) => (<ProjectPanel className={`${movement}`} key={id} img={item.img} title={item.title} text={item.description} link={item.link}/>))}</div>
-            <ButtonHold className="right" scrollOffset={moveAmount} move={slider}></ButtonHold>
         </div>
     );
 }

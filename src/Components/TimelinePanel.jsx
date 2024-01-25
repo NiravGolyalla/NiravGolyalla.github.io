@@ -7,8 +7,8 @@ export default function TimelinePanel(props) {
                 <div className="bullet_point"></div>
                 <div className="timeline_panel" onClick={props.customClickEvent}>
                     <div className="timeline_hover"></div>
-                    <h1 className="timeline_title">{props.name}</h1>
-                    <h2 className="timeline_text">{props.text}</h2>
+                    <h3 className="timeline_title">{props.name}</h3>
+                    <h4 className="timeline_text">{props.text}</h4>
                 </div>
             </div>
         </>

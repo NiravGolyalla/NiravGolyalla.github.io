@@ -3,6 +3,7 @@ import ExperienceList from "./Components/ExperienceList"
 import ProjectList from "./Components/ProjectList"
 import Hero from './Components/Hero'
 import Section from './Components/Section'
+import Contact from './Components/Contact'
 
 
 
@@ -12,6 +13,12 @@ const App = () => {
       <Navbar />
       <Hero/>
       <Section id="experience">
+        <h2>About me</h2>
+        <div>
+          <p>Hello, I am Nirav Golyalla, a software engineer with a focus in machine learning and an interest in game development.</p>
+        </div>
+      </Section>
+      <Section id="experience">
         <h2>Experience</h2>
         <ExperienceList />
       </Section>
@@ -19,11 +26,7 @@ const App = () => {
         <h2>Projects</h2>
         <ProjectList/>
       </Section>
-      <Section id="contact">
-        <h2>Contact Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </Section>
-
+      <Contact/>
     </div>
 
   )

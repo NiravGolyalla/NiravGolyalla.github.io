@@ -2,21 +2,22 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
-    padding: 5em;
-    
+    align-items: start;
+    padding: 5em 1em 5em 1em;
+    /* padding: 5em; */
+    min-height: 50vh;
 }
 
-.subsection {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    overflow: hidden;
-    min-height: 50vh;
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 5em 10em 5em 10em;
+.section:nth-child(2n+1) {
     background-color: var(--lshade5);
 }
+
+@media all and (min-width:1600px){
+    .section{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+
 

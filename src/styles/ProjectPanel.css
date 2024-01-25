@@ -3,8 +3,8 @@
     flex-direction:column;
     align-items: center;
     background-color: var(--secondary);
-    width: 21vw;
-    height: 28vw;
+    width: clamp(21rem,24vmax,27rem);
+    height: clamp(28rem,32vmax,36rem);
     border-radius: 15px;
     transform-origin: 50% 10%;
     transition: all 0.5s cubic-bezier(0.64, 0.57, 0.67, 1.53);
@@ -12,7 +12,6 @@
 
 .Display_content{
     padding:  0.5em 2em 0 2em;
-    /* outline: 1px red solid; */
     width: 100%;
     line-height: 1em;
     height: 45%;
@@ -43,7 +42,7 @@
 }
 
 .Display_button{
-    /* all:unset; */
+    all:unset;
     padding: 1em; 
     background-color: var(--dshade3);
     color: inherit;
@@ -54,5 +53,10 @@
 
 .Display_button:hover{
     background-color: var(--accent);
+}
 
+@media all and (max-width: 1600px){
+    .huh {
+        font-size: .8rem;
+    }
 }

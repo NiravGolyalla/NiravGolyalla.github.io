@@ -19,12 +19,14 @@ export default function ButtonHold(props) {
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
             intervalRef.current = null;
+            props.method("");
         }
     };
 
 
     function scroll() {
         props.move.current.scrollLeft += props.scrollOffset;
+        props.method(props.className);
     }
 
     return (

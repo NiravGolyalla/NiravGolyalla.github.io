@@ -8,6 +8,7 @@
     background-color: var(--lshade5);
     transition: all 0.5s ease-in-out;
     z-index: 0;
+    min-height: 100%;
 }
 
 .timeline_hover{
@@ -47,12 +48,12 @@
 }
 
 .timeline_title {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     z-index: 10;
 }
 
 .timeline_text {
-    font-size: 1em;
+    /* font-size: 1em; */
     z-index: 4;
 }
 
@@ -70,7 +71,6 @@
     border-radius: 50%;
     text-align: center;
     vertical-align:middle;
-    font-size: 2rem;
     background-color: var(--secondary);
     border: 3px solid var(--accent);
     z-index: 1;
